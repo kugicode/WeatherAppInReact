@@ -10,7 +10,7 @@ async function fetchWeatherData(){
 
   try {
 
-    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=b55cc7227e9bef192accc88691c7f99f`
+    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=My api goes here but i'm posting this code publicly so i can't show my api key! :D`
 
     const response = await axios.get(apiUrl);
 
